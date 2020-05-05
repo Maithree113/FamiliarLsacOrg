@@ -10,6 +10,7 @@ import com.cucumber.listener.Reporter;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import io.appium.java_client.AppiumDriver;
 
 public class TestBase extends DriverBase {
 	
@@ -22,11 +23,11 @@ public class TestBase extends DriverBase {
     { 
       
          String browser = envProp.getPropValues("browser");
-         driver = createDriver(browser,driver);    
+         driver = createDriver(browser);    
          // To open BBlog site 
          driver.get(envProp.getPropValues("url")); 
          // To maximize browser 
-         driver.manage().window().maximize();      
+         //driver.manage().window().maximize();      
     }
   
     /** This method is the close the browser after operation is performed **/
