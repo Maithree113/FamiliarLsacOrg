@@ -36,7 +36,7 @@ public class VerifyLsacSearch {
 	   else
 	   {
 	     String pageTitle = homePage.verifyPageTitle();
-	     Assert.assertEquals("", pageTitle);
+	     Assert.assertEquals("The Law School Admission Council | LSAC", pageTitle);
 	   }
 	}
 
@@ -82,7 +82,7 @@ public class VerifyLsacSearch {
 		 else
 		 {
 			 String pageTitle = searchPage.verifyPageTitle();
-			 Assert.assertEquals("", pageTitle);
+			 Assert.assertEquals("Search | The Law School Admission Council", pageTitle);
 		 }
 		
 	}
