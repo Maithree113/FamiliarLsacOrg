@@ -30,7 +30,7 @@ Runner Files
 
 To run the feature file runner file is added under cucumberRunner folder
 
-UI Runner : CucumberRunner/LsacRunner.java (Add the scenario tag you wish to run under tag sectuon in APIRunner)
+UI Runner : CucumberRunner/LsacRunner.java
 
      : Right click on LsacRunner.java and run as TestNg   
 	
